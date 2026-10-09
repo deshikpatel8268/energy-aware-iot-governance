@@ -26,7 +26,7 @@ Execution instructions and interpretation limits are provided in `reproducibilit
 | Aggregated statistics | `reproducibility/results/summary.json` |
 | Software and hardware configuration | `reproducibility/results/environment.json` |
 | Structured solver-return records (status, objective, iterations, runtime; not full solver console logs) | `reproducibility/results/solver_records.jsonl` |
-| Original notebook-generated illustrations | `original_notebook/Testing_Claude.ipynb` |
+
 
 ---
 
