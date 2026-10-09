@@ -2,13 +2,13 @@
 
 ## Repository scope and experimental provenance
 
-This repository contains two distinct computational components. The original dataset archive and documentation describe the initial network instances. 
+This repository contains two distinct computational components. The original dataset archive and documentation describe the initial network instances.
 
 The `reproducibility/` directory contains the separate replicated study used for the revised manuscript. It includes 60 feasible synthetic networks, generation and optimization scripts, Lagrangian pricing diagnostics, capacity-investment comparisons, service-priority experiments, capacity-degradation tests, saved results, and statistical aggregation code.
 
-The original notebook uses Pyomo and HiGHS. The replicated study uses SciPy and HiGHS. These components differ in instance construction, endpoint restrictions, and pricing configuration and should not be treated as interchangeable implementations.
+The original analyses used Pyomo and HiGHS. The replicated study uses SciPy and HiGHS. These two implementations differ in instance construction, endpoint restrictions, and pricing configuration and should not be treated as interchangeable implementations.
 
-The original input capacities do not support the prescribed demands in the audited formulations. Results from the notebook's repaired instances therefore do not establish feasibility of the unchanged original datasets.
+The original input capacities do not support the prescribed demands in the audited formulations. Results obtained after repairing those capacities therefore do not establish feasibility of the unchanged original datasets.
 
 Execution instructions and interpretation limits are provided in `reproducibility/README.md`. Saved outputs are included; rerunning the scripts regenerates instances and overwrites computational outputs.
 
