@@ -1,0 +1,29 @@
+{
+  "name": "base_15nodes",
+  "seed": 42,
+  "n_nodes": 15,
+  "edge_density": 0.12,
+  "n_sources": 3,
+  "n_destinations": 1,
+  "sources": [
+    2,
+    1,
+    13
+  ],
+  "destinations": [
+    11
+  ],
+  "services": [
+    1,
+    2
+  ],
+  "priority_services": [
+    1
+  ],
+  "demand_per_source_service": 5,
+  "capacity_range": [
+    5,
+    20
+  ],
+  "notes": "Connected undirected graph stored as symmetric directed arcs. For each service, sum_i b_i^s = 0."
+}

@@ -1,0 +1,10 @@
+scenario,n_nodes,n_sources,n_destinations,edge_density,u_ij,objective_variant
+scenario_1_high_capacity,70,15,1,0.04,20,all_services
+scenario_1_high_capacity,150,30,3,0.03,20,all_services
+scenario_1_high_capacity,300,60,5,0.02,20,all_services
+scenario_2_low_capacity,70,15,1,0.04,5,all_services
+scenario_2_low_capacity,150,30,3,0.03,5,all_services
+scenario_2_low_capacity,300,60,5,0.02,5,all_services
+scenario_3_priority_objective,70,15,1,0.04,5,priority_only
+scenario_3_priority_objective,150,30,3,0.03,5,priority_only
+scenario_3_priority_objective,300,60,5,0.02,5,priority_only

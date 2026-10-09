@@ -1,0 +1,43 @@
+{
+  "name": "scaled_70nodes",
+  "seed": 44,
+  "n_nodes": 70,
+  "edge_density": 0.04,
+  "n_sources": 15,
+  "n_destinations": 2,
+  "sources": [
+    15,
+    23,
+    49,
+    29,
+    38,
+    2,
+    70,
+    8,
+    37,
+    1,
+    7,
+    11,
+    50,
+    33,
+    45
+  ],
+  "destinations": [
+    53,
+    67
+  ],
+  "services": [
+    1,
+    2,
+    3
+  ],
+  "priority_services": [
+    1
+  ],
+  "demand_per_source_service": 5,
+  "capacity_range": [
+    5,
+    25
+  ],
+  "notes": "Connected undirected graph stored as symmetric directed arcs. For each service, sum_i b_i^s = 0."
+}

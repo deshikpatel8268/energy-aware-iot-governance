@@ -1,0 +1,25 @@
+instance,restricted,n,k,m,status,message,destination,required,inbound
+iot_synthetic_datasets/base_15nodes,True,15,2,22,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),11,30.0,30.0
+iot_synthetic_datasets/base_15nodes,False,15,2,28,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),11,30.0,30.0
+iot_synthetic_datasets/scaled_150nodes_x10,True,150,4,524,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),37,223.0,29.0
+iot_synthetic_datasets/scaled_150nodes_x10,False,150,4,670,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),37,223.0,29.0
+iot_synthetic_datasets/scaled_70nodes,True,70,3,142,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),67,135.0,8.0
+iot_synthetic_datasets/scaled_70nodes,False,70,3,192,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),67,135.0,8.0
+scenario_1_high_capacity/n150,True,150,2,519,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),15,155.0,60.0
+scenario_1_high_capacity/n150,False,150,2,670,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),15,155.0,60.0
+scenario_1_high_capacity/n300,True,300,2,1422,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),65,94.0,40.0
+scenario_1_high_capacity/n300,False,300,2,1794,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),65,94.0,40.0
+scenario_1_high_capacity/n70,True,70,2,154,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),22,150.0,60.0
+scenario_1_high_capacity/n70,False,70,2,192,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),22,150.0,60.0
+scenario_2_low_capacity/n150,True,150,2,543,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),58,114.0,20.0
+scenario_2_low_capacity/n150,False,150,2,670,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),58,114.0,20.0
+scenario_2_low_capacity/n300,True,300,2,1414,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),228,170.0,15.0
+scenario_2_low_capacity/n300,False,300,2,1794,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),228,170.0,15.0
+scenario_2_low_capacity/n70,True,70,2,149,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),36,150.0,10.0
+scenario_2_low_capacity/n70,False,70,2,192,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),36,150.0,10.0
+scenario_3_priority_objective/n150,True,150,2,538,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),34,130.0,30.0
+scenario_3_priority_objective/n150,False,150,2,670,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),34,130.0,30.0
+scenario_3_priority_objective/n300,True,300,2,1417,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),128,162.0,25.0
+scenario_3_priority_objective/n300,False,300,2,1794,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),128,162.0,25.0
+scenario_3_priority_objective/n70,True,70,2,151,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),7,150.0,30.0
+scenario_3_priority_objective/n70,False,70,2,192,2,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None),7,150.0,30.0

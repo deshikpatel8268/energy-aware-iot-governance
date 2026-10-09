@@ -1,0 +1,61 @@
+{
+  "name": "scaled_150nodes_x10",
+  "seed": 43,
+  "n_nodes": 150,
+  "edge_density": 0.03,
+  "n_sources": 30,
+  "n_destinations": 3,
+  "sources": [
+    122,
+    98,
+    26,
+    120,
+    131,
+    5,
+    135,
+    114,
+    99,
+    115,
+    104,
+    48,
+    16,
+    29,
+    33,
+    100,
+    42,
+    148,
+    44,
+    130,
+    18,
+    102,
+    52,
+    80,
+    67,
+    36,
+    77,
+    25,
+    51,
+    9
+  ],
+  "destinations": [
+    10,
+    74,
+    37
+  ],
+  "services": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "priority_services": [
+    1,
+    2
+  ],
+  "demand_per_source_service": 5,
+  "capacity_range": [
+    5,
+    30
+  ],
+  "notes": "Connected undirected graph stored as symmetric directed arcs. For each service, sum_i b_i^s = 0."
+}
