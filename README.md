@@ -2,7 +2,7 @@
 
 ## Repository scope and experimental provenance
 
-This repository contains two distinct computational components. The original dataset archive and documentation describe the initial network instances. The notebook in `original_notebook/Testing_Claude.ipynb` applies capacity preparation and produces the original illustrative analyses.
+This repository contains two distinct computational components. The original dataset archive and documentation describe the initial network instances. 
 
 The `reproducibility/` directory contains the separate replicated study used for the revised manuscript. It includes 60 feasible synthetic networks, generation and optimization scripts, Lagrangian pricing diagnostics, capacity-investment comparisons, service-priority experiments, capacity-degradation tests, saved results, and statistical aggregation code.
 
