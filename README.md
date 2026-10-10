@@ -2,13 +2,13 @@
 
 ## Repository scope and experimental provenance
 
-This repository contains two distinct computational components. The original dataset archive and documentation describe the initial network instances.
+This repository contains two distinct computational components. The original dataset archive and documentation describe the initial network instances. The notebook `Energy_Aware_Governance_of_Large_Scale_Cyber_Physical_IoT_Networks_Final.ipynb` contains the original Pyomo/HiGHS analyses: it applies capacity preparation to these instances and produces the illustrative figures (multiplier trajectories, normalized flow comparison, and calibrated selected-node energy illustration).
 
 The `reproducibility/` directory contains the separate replicated study used for the revised manuscript. It includes 60 feasible synthetic networks, generation and optimization scripts, Lagrangian pricing diagnostics, capacity-investment comparisons, service-priority experiments, capacity-degradation tests, saved results, and statistical aggregation code.
 
 The original analyses used Pyomo and HiGHS. The replicated study uses SciPy and HiGHS. These two implementations differ in instance construction, endpoint restrictions, and pricing configuration and should not be treated as interchangeable implementations.
 
-The original input capacities do not support the prescribed demands in the audited formulations. Results obtained after repairing those capacities therefore do not establish feasibility of the unchanged original datasets.
+The original input capacities do not support the prescribed demands in the audited formulations. Results from the notebook's repaired instances therefore do not establish feasibility of the unchanged original datasets.
 
 Execution instructions and interpretation limits are provided in `reproducibility/README.md`. Saved outputs are included; rerunning the scripts regenerates instances and overwrites computational outputs.
 
@@ -26,7 +26,19 @@ Execution instructions and interpretation limits are provided in `reproducibilit
 | Aggregated statistics | `reproducibility/results/summary.json` |
 | Software and hardware configuration | `reproducibility/results/environment.json` |
 | Structured solver-return records (status, objective, iterations, runtime; not full solver console logs) | `reproducibility/results/solver_records.jsonl` |
+| Original notebook illustrations (Figs. A3–A5) | `Energy_Aware_Governance_of_Large_Scale_Cyber_Physical_IoT_Networks_Final.ipynb` |
 
+
+
+### Running the original notebook
+
+The notebook was written for Google Colab and is retained as a record of the original analyses.
+
+- **Packages:** `pyomo`, `highspy`, `pandas`, `numpy`, `matplotlib`, `networkx`, `scipy`, `tabulate`, `openpyxl` (the first code cell installs these with `pip`).
+- **Inputs:** extract `iot_scenario_pack.zip` and `iot_synthetic_datasets_bundle.zip` from `Dataset-20260516T171032Z-3-001.zip` and place them at `/content/iot_scenario_pack.zip` and `/content/iot_synthetic_datasets_bundle.zip`. When running outside Colab, change these paths in the notebook.
+- **Outputs:** written to `/content/iot_ms_experiments/` (result tables and figure files).
+
+The notebook repairs capacities with an instance-specific multiplier before solving and omits the source/destination endpoint restrictions used in the replicated study. Its embedded summary text predates the revised manuscript; in particular, its description of warm-start speedups is not supported by the revised analysis and is not used as evidence in the paper.
 
 ---
 
