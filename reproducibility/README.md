@@ -32,9 +32,6 @@ Run from a fresh copy if you want to retain the delivered outputs: these command
 - `results/summary.json`: processed statistics used in the revised manuscript.
 - `figures/`: generated figures; PDF versions are vector graphics.
 
-Original repository: https://github.com/deshikpatel8268/energy-aware-iot-governance
-Audited commit: 624a41b43e8dd26d473cab62a36660fb5e47ade8
-Accessed 2026-10-06.
 
 ## Interpretation limits
 
