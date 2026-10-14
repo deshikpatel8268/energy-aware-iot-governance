@@ -27,6 +27,7 @@ Execution instructions and interpretation limits are provided in `reproducibilit
 | Software and hardware configuration | `reproducibility/results/environment.json` |
 | Structured solver-return records (status, objective, iterations, runtime; not full solver console logs) | `reproducibility/results/solver_records.jsonl` |
 | Original notebook illustrations (Figs. A3–A5) | `Energy_Aware_Governance_of_Large_Scale_Cyber_Physical_IoT_Networks_Final.ipynb` |
+| Extended analysis: optimal portfolio benchmark, sequential dual re-pricing, Polyak-type pricing | `extended_analysis/` (see `extended_analysis/README.md`) |
 
 
 
